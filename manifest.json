@@ -1,0 +1,19 @@
+{
+	"name": "UniFix",
+	"description": "UniFix patches Uniswap's exchange site to remove the blocklisted tokens. I'll keep it updated for some time.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj7qoFF89nlZ+8CaShH88FLa4T9NJdfb1R+RlNkzahmmCG0+nEg4ZcBmUInfBiQxhFvYqJ8GpeQmIqN8jl0eqlOWiZdZzSM9p8gUZMu+6akbDQLn48meNkJpMvr1rYUSxsIi2YAPf4u5ALJHYe79jqQhq9xJTPF2pqTxTnSOWOkFKFKHi/rUmwx7NZh29fpKFlSBOx5SLMIViV1VCKorzT7Xj8TlEBa5XsjedgZ5sAuauuFxbbE8Xb1hsE/Mj20lnFwAfRyuVWISlAF28M4sd1/VRxQtgtOMTrXdgJC/Bx+Lb+vUEhc77zv7fGrvgHHULFcmBp++lB+aBr7XqASfIGwIDAQAB",
+	"permissions": ["<all_urls>", "webRequest", "webRequestBlocking"],
+	"browser_action": {
+		"default_icon": "logo/Logo.png"
+	},
+	"icons": {
+		"512": "logo/Logo.png"
+	},
+	"background": {
+		"scripts": ["backend/bg.js"],
+		"persistent": true
+	},
+	"web_accessible_resources": ["backend/main.js"]
+}
