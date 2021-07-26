@@ -1,6 +1,6 @@
 # UniFix
 
-UniFix patches Uniswap's exchange site to remove the blocklisted tokens. I'll keep it updated for some time.
+UniFix patches Uniswap's exchange site to remove the blacklisted token list. I'll keep it updated for some time.
 
 ## Why?
 
